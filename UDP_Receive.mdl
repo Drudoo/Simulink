@@ -56,7 +56,7 @@ Model {
 	LoadSaveID		"0"
 	Extents			[1535.0, 801.0]
 	ZoomFactor		[2.0]
-	Offset			[86.5989694680328, 5.208152595102078]
+	Offset			[86.5989694680328, 5.2081525951020922]
       }
     }
   }
@@ -66,7 +66,7 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Drudoo"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sat Nov 29 11:09:30 2014"
+  LastModifiedDate	  "Sat Nov 29 12:02:24 2014"
   RTWModifiedTimeStamp	  339160162
   ModelVersionFormat	  "1.%<AutoIncrement:4>"
   ConfigurationManager	  "none"
@@ -111,7 +111,7 @@ Model {
     $ObjectID		    6
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "UDP_Receive"
-    overrideMode_	    [0U]
+    overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
       Dimension		      1
@@ -859,7 +859,7 @@ Model {
       isVarSize		      off
       showBlockingTime	      off
       blockingTime	      "0"
-      sampletime	      "1"
+      sampletime	      "1/256"
     }
     Line {
       ZOrder		      39
@@ -878,13 +878,14 @@ Model {
     Annotation {
       SID		      "3"
       Name		      "IP: '0.0.0.0'\nPort: 2814\nBuffer: 8192\nMessage Length: 1\nData type: uint8\nUncheck Output variab"
-      "le-size signal\nSample time: 1"
+      "le-size signal\nSample time: 1/256"
       Position		      [130, 97, 291, 169]
       InternalMargins	      [0, 0, 0, 0]
       FixedHeight	      off
       FixedWidth	      off
       HorizontalAlignment     "left"
       VerticalAlignment	      "top"
+      ZOrder		      -1
     }
   }
 }
